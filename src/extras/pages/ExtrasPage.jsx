@@ -1,12 +1,15 @@
-import { MailOutline } from '@mui/icons-material'
 import { Typography } from '@mui/material'
-import React from 'react'
+import { ExtrasLayout } from '../layout/ExtrasLayout'
+
+const drowerWidth =  240;
 
 export const ExtrasPage = () => {
   return (
     <>
-    <Typography variant='h1'>ExtrasPage</Typography>
-    <MailOutline/>
+      <ExtrasLayout>
+        <Typography variant='h1'>ExtrasPage</Typography>
+        
+      </ExtrasLayout>
     </>
   )
 }
